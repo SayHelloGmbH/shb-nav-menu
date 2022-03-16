@@ -1,0 +1,10 @@
+/**
+ * Styles for the Block Editor
+ */
+
+.wp-block-shb-nav-menu {
+    &__entrylink {
+        pointer-events: none;
+        user-select: none;
+    }
+}

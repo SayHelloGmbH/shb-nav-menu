@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "shb/nav-menu",
+    "version": "0.1.0",
+    "title": "Navigation Menu",
+    "category": "widgets",
+    "icon": "menu",
+    "description": "Provides a block for the output of a selected classic menu.",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "menu_position": {
+            "type": "string"
+        }
+    },
+    "textdomain": "shb-nav-menu",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css"
+}

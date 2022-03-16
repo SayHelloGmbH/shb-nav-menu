@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AAAA;;EAAA;AAKI;EACI;EACA;KAAA;MAAA;UAAA;AADR,C","sources":["webpack://shb-nav-menu/./src/editor.scss"],"sourcesContent":["/**\n * Styles for the Block Editor\n */\n\n.wp-block-shb-nav-menu {\n    &__entrylink {\n        pointer-events: none;\n        user-select: none;\n    }\n}\n"],"names":[],"sourceRoot":""}
