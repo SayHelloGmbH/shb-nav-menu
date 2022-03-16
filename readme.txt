@@ -1,4 +1,4 @@
-=== Shb Nav Menu ===
+=== Block: Navigation Menu ===
 Contributors:      markhowellsmead
 Tags:              block, menu
 Tested up to:      5.9
@@ -6,7 +6,9 @@ Stable tag:        1.0.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Provides a block which outputs a selected classic menu.
+Provides a block which outputs a selected WordPress classic menu.
+
+https://codex.wordpress.org/WordPress_Menu_User_Guide
 
 == Installation ==
 
