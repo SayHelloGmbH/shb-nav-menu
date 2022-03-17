@@ -2,7 +2,7 @@
 Contributors:      markhowellsmead
 Tags:              block, menu
 Tested up to:      5.9
-Stable tag:        1.0.0
+Stable tag:        1.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,5 +18,11 @@ https://codex.wordpress.org/WordPress_Menu_User_Guide
 
 == Changelog ==
 
+= 1.0.1 =
+
+* Correct nav container and menu element classnames
+* Add PHPCS ruleset
+
 = 1.0.0 =
+
 * Release.

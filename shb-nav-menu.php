@@ -52,8 +52,8 @@ function shb_nav_menu_render_block(array $attributes, string $content, WP_Block 
 				'echo' => false,
 				'theme_location' => $menu_position,
 				'container' => 'nav',
-				'container_class' => "{$classNameBase} {$classNameBase}--container {$classNameBase}--{$menu_position}",
-				'menu_class' => "{$classNameBase} {$classNameBase}--menu {$classNameBase}--{$menu_position}",
+				'container_class' => "{$classNameBase} {$classNameBase}__container {$classNameBase}__container--{$menu_position}",
+				'menu_class' => "{$classNameBase} {$classNameBase}__menu {$classNameBase}__menu--{$menu_position}",
 			]
 		);
 
