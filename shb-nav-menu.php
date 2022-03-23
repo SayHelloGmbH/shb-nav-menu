@@ -5,7 +5,7 @@
  * Description:       Provides a block for the output of a selected classic menu.
  * Requires at least: 5.9
  * Requires PHP:      8.0
- * Version:           1.0.0
+ * Version:           1.1.1
  * Author:            Say Hello GmbH
  * Author URI:        https://www.sayhello.ch/
  * License:           GPL-2.0-or-later
@@ -129,12 +129,12 @@ add_action('rest_api_init', 'shb_nav_menu_endpoints');
  * Additional CSS class names for the menu entries
  *
  * @param array $classes
- * @param WP_Post $item
+ * @param WP_Post|WPML_LS_Menu_Item $item
  * @param stdClass $args
  * @param string $depth
  * @return array
  */
-function shb_nav_menu_class(array $classes, WP_Post $item, stdClass $args, string $depth)
+function shb_nav_menu_class($classes, $item, $args, $depth)
 {
 
 	$classNameBase = wp_get_block_default_classname('shb/nav-menu');

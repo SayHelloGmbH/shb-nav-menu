@@ -1,6 +1,6 @@
 {
     "name": "shb-nav-menu",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Provides a block for the output of a selected classic menu.",
     "author": "say Hello GmbH",
     "license": "GPL-2.0-or-later",
